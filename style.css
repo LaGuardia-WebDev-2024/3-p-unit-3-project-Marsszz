@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.section {
+    min-height: 100vh; /* Ensure sections are tall enough to scroll */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    transition: background-color 0.5s ease; /* Smooth transition for background color */
+}
+
+.blue-bg {
+    background-color: #3498db;
+}
+
+.green-bg {
+    background-color: #2ecc71;
+}
+
+.red-bg {
+    background-color: #e74c3c;
+}
